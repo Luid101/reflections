@@ -2,4 +2,10 @@ What happens when you initialize a repository? Why do you need to do it?
   It creates a .git folder that stores all future commits that you make. You need to create one in order to store new commits.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-  The staging area is the zone in between the working directory and the repository. It allows the user to choose what he or she wants to commit before they commit it. 
+  The staging area is the zone in between the working directory and the repository. It allows the user to choose what he or she wants to commit before they commit it.
+
+How can you use the staging area to make sure you have one commit per logical change?
+  You can use git diff to check the changes made between the working dir and the staging area
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+  If you are working in a team and you each want to work on different features in the same project it would be helpful to make commits for each one of you. 
